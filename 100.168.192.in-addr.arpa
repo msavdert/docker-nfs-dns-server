@@ -1,0 +1,16 @@
+$ORIGIN 100.168.192.in-addr.arpa.
+$TTL 1H
+@       IN      SOA     nfs.example.com.     root.nfs.example.com. (      2
+                                                3H
+                                                1H
+                                                1W
+                                                1H )
+100.168.192.in-addr.arpa.         IN NS      nfs.example.com.
+
+10     IN PTR  rac1.example.com.
+11     IN PTR  rac2.example.com.
+12     IN PTR  rac1-vip.example.com.
+13     IN PTR  rac2-vip.example.com.
+14     IN PTR  rac-scan.example.com.
+15     IN PTR  rac-scan.example.com.
+16     IN PTR  rac-scan.example.com.
